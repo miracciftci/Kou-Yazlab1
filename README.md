@@ -9,4 +9,4 @@ Büyük veride multithreading ile benzer kayıtların tespit edilmesi
 edilecek ve tespit edilen kayıtlar masaüstü uygulamasında gösterilecektir. Multithreading 
 kullanarak benzerlik arama süresini düşürmek amaçlanmaktadır
 
-projede verileri düzenlemek için python kullanılmıştır, Backend tarafındaki multithreading için java kullanılmıştır, Arayüz için ise swing kullanılmıştır. 
+projede verileri düzenlemek için python, Backend tarafındaki multithreading için java, Arayüz için ise java swing kullanılmıştır. 
