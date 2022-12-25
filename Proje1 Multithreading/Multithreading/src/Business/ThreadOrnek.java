@@ -39,13 +39,17 @@ public class ThreadOrnek implements Runnable{
                         double benzerlik = karsilastirma.fonk(veriler.get(i).getProduct(), veriler.get(j).getProduct());
                         if(benzerlik>=miktar){
                             kontrol++;
-                            result.add(veriler.get(j));
+                            synchronized (result) {
+                                result.add(veriler.get(j));
+                            }
                             veriler.remove(j);
                             j--;
                         }
                     }
                     if(kontrol != 0){
-                        result.add(veriler.get(i));
+                        synchronized (result) {
+                            result.add(veriler.get(i));
+                        }
                         veriler.remove(i);
                         i--;
                     }
@@ -58,13 +62,17 @@ public class ThreadOrnek implements Runnable{
                         double benzerlik = karsilastirma.fonk(veriler.get(i).getIssue(), veriler.get(j).getIssue());
                         if(benzerlik>=miktar){
                             kontrol++;
-                            result.add(veriler.get(j));
+                            synchronized (result) {
+                                result.add(veriler.get(j));
+                            }
                             veriler.remove(j);
                             j--;
                         }
                     }
                     if(kontrol != 0){
-                        result.add(veriler.get(i));
+                        synchronized (result) {
+                            result.add(veriler.get(i));
+                        }
                         veriler.remove(i);
                         i--;
                     }
@@ -78,13 +86,17 @@ public class ThreadOrnek implements Runnable{
                         double benzerlik = karsilastirma.fonk(veriler.get(i).getCompany(), veriler.get(j).getCompany());
                         if(benzerlik>=miktar){
                             kontrol++;
-                            result.add(veriler.get(j));
+                            synchronized (result) {
+                                result.add(veriler.get(j));
+                            }
                             veriler.remove(j);
                             j--;
                         }
                     }
                     if(kontrol != 0){
-                        result.add(veriler.get(i));
+                        synchronized (result) {
+                            result.add(veriler.get(i));
+                        }
                         veriler.remove(i);
                         i--;
                     }
@@ -97,3 +109,4 @@ public class ThreadOrnek implements Runnable{
         
     }
 }
+
