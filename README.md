@@ -12,8 +12,8 @@ kullanarak benzerlik arama süresini düşürmek amaçlanmaktadır
 - Projede verileri düzenlemek için python, Backend tarafında multithreading ve diğer işlemler için java, Arayüz için ise java swing kullanılmıştır. 
 
 ## Proje2 Birleştirme Algoritması
-verilen kelime veya cümlelerin farklı algoritmalarına göre birleştirilmesi
+Verilen kelimelerin veya cümlelerin farklı algoritmalar ile birleştirilmesi
 
-- Projede arayüzde kullanıcı sınırsız sayıda kelime veya cümle girebiliyor. Girilen kelimeler api'ler ile backend'de yollanıyor. Backend'de de farklı algoritmalar ile birleştirilip ve sonra database'e kaydedilip ön yüze tekrar yollanıyor.
+- Projede arayüzde kullanıcı sınırsız sayıda kelime veya cümle girebiliyor. Girilen kelimeler api'ler ile backend'de yollanıyor. Backend'de de farklı algoritmalar ile birleştirildikten sonra database'e kaydedilip flutter'a tekrar yollanıyor.
 
-- Projede backend tarafında Spring boot, frontend tarafında flutter database olarakta mongodb kullanıldı.
+- Projede backend tarafında java, Spring boot, JPA, Hibernate teklonojileri, frontend tarafında flutter, database tarafında da mongodb kullanıldı.
