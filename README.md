@@ -9,9 +9,8 @@ Detection of similar records with multithreading in big data
   the detected records will be displayed in the desktop application. multithreading It is aimed to reduce the similarity search time by using.
 - In the project, python was used to organize the data, java was used for multithreading and other operations on the backend, and java swing was used for the interface.
 
-## Project2 Birleştirme Algoritması
-Verilen kelimelerin veya cümlelerin farklı algoritmalar ile birleştirilmesi
+## Project2 Joining Algorithm
+Combining given words or sentences with different algorithms
 
-- Projede arayüzde kullanıcı sınırsız sayıda kelime veya cümle girebiliyor. Girilen kelimeler api'ler ile backend'de yollanıyor. Backend'de de farklı algoritmalar ile birleştirildikten sonra database'e kaydedilip flutter'a tekrar yollanıyor.
-
-- Projede backend tarafında java, Spring boot, JPA, Hibernate teklonojileri, frontend tarafında flutter, database tarafında da mongodb kullanıldı.
+- In the project, the user can enter an unlimited number of words or sentences in the interface. The entered words are sent to the backend with API's. After being combined with different algorithms in the backend, it is saved in the database and sent back to Flutter.
+- In the project, java, Spring boot, JPA and Hibernate technologies were used on the backend, flutter on the frontand and Mongodb on the database side.
